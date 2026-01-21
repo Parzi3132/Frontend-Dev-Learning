@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-header ul{
+    list-style:none;
+    display: flex; /*  */
+    gap: 15px;
+    margin-top: 40px;
+    align-items: center; /* центрирует содержимое элемента по вертикали  */
+    justify-content: center; /* центрирует содержимое элемента по горизонтали  */
+}
+
+.main-header a{
+    text-decoration: none;
+    color: #000000;
+}
