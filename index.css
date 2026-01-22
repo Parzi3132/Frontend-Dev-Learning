@@ -3,16 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
-.main-header ul{
-    list-style:none;
-    display: flex; /*  */
-    gap: 15px;
-    margin-top: 40px;
-    align-items: center; /* центрирует содержимое элемента по вертикали  */
-    justify-content: center; /* центрирует содержимое элемента по горизонтали  */
+.main-navbar a{
+    text-decoration: none; /* убирает подсветку и подчеркивание текста */
+    color: #FFF;
+
 }
 
-.main-header a{
-    text-decoration: none;
-    color: #000000;
+.main-navbar ul{
+    list-style: none; /* убирает стиль списка (нумерацию, точки и прочее */
+    display: flex; 
+    gap: 53px;
+    justify-content: center; /* выравнивает текст по горизонту */
+    align-items: center; /* выравнивает текст по вертикали */
+    margin-top: 56px;
 }
+
+.hero{
+    background-image: url("assets/intro-bg.jpg");
+    height: 962px;
+    background-repeat: no-repeat; /* убирает повторение фона при уменьшении размеров экрана */
+    background-size: cover; /* растягивает изображение на весь размер блока */
+    background-position: center; /* позиционирует изображение по центру */
+    border: 5px red solid; /* TODO: убрать после стилизации блока */
+} 
+
